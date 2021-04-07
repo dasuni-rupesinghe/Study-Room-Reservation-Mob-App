@@ -13,9 +13,9 @@
 
     <fragment
         android:id="@+id/nav_gallery"
-        android:name="com.example.studentroombooking.ui.gallery.GalleryFragment"
+        android:name="com.example.studentroombooking.ui.booking.BookingFragment"
         android:label="@string/menu_gallery"
-        tools:layout="@layout/fragment_gallery" />
+        tools:layout="@layout/fragment_booking" />
 
     <fragment
         android:id="@+id/nav_slideshow"
