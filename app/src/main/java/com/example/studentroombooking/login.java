@@ -21,7 +21,7 @@ public class login extends AppCompatActivity {
         tvForgotPwd.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent myIntent = new Intent(login.this, ForgotPwd.class);
+                Intent myIntent = new Intent(login.this, update_user_activity.class);
                 startActivity(myIntent);
             }
         });
