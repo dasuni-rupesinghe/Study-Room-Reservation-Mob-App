@@ -35,7 +35,7 @@
 
             <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
+                android:layout_height="50dp"
                 android:layout_marginLeft="15dp"
                 android:layout_marginRight="15dp"
                 android:layout_marginBottom="15dp"
@@ -54,16 +54,19 @@
                 <EditText
                     android:id="@+id/editTextNumber"
                     android:layout_width="130dp"
-                    android:layout_height="wrap_content"
+                    android:layout_height="30dp"
                     android:layout_weight="1"
                     android:textSize="18sp"
                     android:ems="10"
-                    android:inputType="number" />
+                    android:inputType="number"
+                    android:background="@drawable/textboxbac"
+                    android:textColor="#fff"
+                    android:gravity="center"/>
             </LinearLayout>
 
             <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
+                android:layout_height="50dp"
                 android:layout_marginLeft="15dp"
                 android:layout_marginRight="15dp"
                 android:layout_marginBottom="15dp"
@@ -81,14 +84,14 @@
                 <Spinner
                     android:id="@+id/spinner"
                     android:layout_width="200dp"
-                    android:layout_height="wrap_content"
+                    android:layout_height="30dp"
                     android:textColor="#000"
                     android:textSize="18sp"/>
             </LinearLayout>
 
             <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
+                android:layout_height="50dp"
                 android:layout_marginLeft="15dp"
                 android:layout_marginRight="15dp"
                 android:layout_marginBottom="15dp"
@@ -106,16 +109,19 @@
                 <EditText
                     android:id="@+id/editTextDate2"
                     android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    android:layout_height="30dp"
                     android:layout_weight="1"
                     android:ems="10"
                     android:textSize="18sp"
-                    android:inputType="text" />
+                    android:inputType="text"
+                    android:background="@drawable/textboxbac"
+                    android:textColor="#fff"
+                    android:gravity="center"/>
             </LinearLayout>
 
             <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
+                android:layout_height="50dp"
                 android:layout_marginLeft="15dp"
                 android:layout_marginRight="15dp"
                 android:layout_marginBottom="15dp"
@@ -124,15 +130,16 @@
                 <TextView
                     android:id="@+id/textView9"
                     android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    android:layout_height="30dp"
                     android:layout_weight="1"
                     android:text="Student Room ID"
                     android:textColor="#000"
-                    android:textSize="18sp"/>
+                    android:textSize="18sp"
+                    />
 
                 <Spinner
                     android:id="@+id/spinner2"
-                    android:layout_width="130dp"
+                    android:layout_width="170dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="1" />
 
@@ -140,7 +147,7 @@
 
             <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
+                android:layout_height="50dp"
                 android:layout_marginLeft="15dp"
                 android:layout_marginRight="15dp"
                 android:orientation="horizontal"
@@ -158,17 +165,20 @@
 
                 <EditText
                     android:id="@+id/editTextNumber2"
-                    android:layout_width="185dp"
-                    android:layout_height="wrap_content"
+                    android:layout_width="198dp"
+                    android:layout_height="30dp"
                     android:layout_weight="1"
                     android:textSize="18sp"
                     android:ems="10"
-                    android:inputType="number" />
+                    android:inputType="number"
+                    android:background="@drawable/textboxbac"
+                    android:textColor="#fff"
+                    android:gravity="center"/>
             </LinearLayout>
 
             <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
+                android:layout_height="50dp"
                 android:layout_marginLeft="15dp"
                 android:layout_marginRight="15dp"
                 android:layout_marginBottom="15dp"
@@ -185,13 +195,15 @@
 
                 <EditText
                     android:id="@+id/editTextTextMultiLine2"
-                    android:layout_width="128dp"
-                    android:layout_height="wrap_content"
+                    android:layout_width="143dp"
+                    android:layout_height="30dp"
                     android:layout_weight="1"
                     android:ems="10"
                     android:textSize="18sp"
-                    android:gravity="start|top"
-                    android:inputType="textMultiLine" />
+                    android:inputType="textMultiLine"
+                    android:background="@drawable/textboxbac"
+                    android:textColor="#fff"
+                    android:gravity="center"/>
             </LinearLayout>
 
             <Button
